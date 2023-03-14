@@ -1,0 +1,85 @@
+.heading {
+    position: relative;
+}
+.testimonials {
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 0 150px;
+    position: relative;
+}
+.testimonials:before {
+    content: "";
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.testimonials .heading h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.testimonials .heading h2 span {
+    color: #ff0000;
+}
+
+.testimonials p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #d1e5e7;
+    margin: 20px 0;
+    padding: 0;
+}
+
+/* Image */
+.testimonials .carousel-inner .carousel-item .team {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ff0000;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 50px 0 15px;
+}
+
+.testimonials .carousel-inner .carousel-item h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.testimonials .carousel-inner .carousel-item h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #e2e1e1;
+    margin-bottom: 20px;
+}
+
+.testimonials .carousel-indicators {
+    bottom: -30px;
+}
+
+.testimonials .carousel-indicators li {
+    background-color: #b8b7b7;
+    border-radius: 30px;
+    height: 4px;
+    width: 40px;
+}
+
+.testimonials .carousel-indicators .active {
+    background-color: #ff0000;
+}
+
+.testimonials .control span {
+    cursor: pointer;
+}
+
+.testimonials .icon {
+    height: 40px;
+    width: 40px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    font-size: 30px;
+    background-image: none;
+    color: #ffffff;
+}

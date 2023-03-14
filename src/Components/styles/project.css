@@ -1,0 +1,13 @@
+
+  
+
+  
+  @media all and (min-width: 900px){
+    .mainproject{
+      display: flex;
+      flex-direction: row;
+    }
+    .mainimage{
+      height: 300px;
+    }
+  }
